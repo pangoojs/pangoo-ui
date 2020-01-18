@@ -7,7 +7,7 @@
 ![GitHub](https://img.shields.io/github/license/pangoo-design/pangoo-design)
 ![GitHub contributors](https://img.shields.io/github/contributors/pangoo-design/pangoo-design)
 
-> A Component Library for Vue.js based on Element.
+> A Component Library for Vue.js.
 
 [@pangoo-design/cli](packages/@pangoo-design/cli): A `cli` tool for quickly generating [Pangoo Design](https://pangoo.design) projects.
 
