@@ -1,0 +1,39 @@
+{
+  "name": "@pangoo-design/theme-chalk",
+  "version": "0.0.0",
+  "description": "Pangoo Design component chalk theme.",
+  "keywords": [
+    "pangoo-design",
+    "theme"
+  ],
+  "homepage": "https://github.com/pangoo-design/theme-chalk#readme",
+  "bugs": {
+    "url": "https://github.com/pangoo-design/theme-chalk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangoo-design/theme-chalk.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ying Wang",
+    "email": "upcwangying@gmail.com",
+    "url": "https://github.com/upcwangying"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  }
+}

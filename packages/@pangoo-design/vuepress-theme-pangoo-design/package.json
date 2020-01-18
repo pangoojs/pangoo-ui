@@ -1,0 +1,32 @@
+{
+  "name": "@pangoo-design/vuepress-theme-pangoo-design",
+  "version": "0.0.0",
+  "description": "A theme based on Vuepress for Pangoo Design.",
+  "keywords": [
+    "vue",
+    "vuepress",
+    "theme",
+    "pangoo-design"
+  ],
+  "homepage": "https://pangoo.design",
+  "bugs": "https://github.com/pangoo-design/pangoo-design/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangoo-design/pangoo-design.git",
+    "directory": "packages/@pangoo-design/vuepress-theme-pangoo-design"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "^1.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@126.com> (https://github.com/upcwangying)"
+  ]
+}

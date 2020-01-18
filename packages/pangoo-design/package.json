@@ -1,0 +1,74 @@
+{
+  "name": "pangoo-design",
+  "version": "0.0.0",
+  "description": "A Component Library for Vue.js.",
+  "keywords": [
+    "pangoo-design"
+  ],
+  "homepage": "https://pangoo.design",
+  "bugs": "https://github.com/pangoo-design/pangoo-design/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangoo-design/pangoo-design.git",
+    "directory": "packages/pangoo-design"
+  },
+  "license": "MIT",
+  "main": "lib/pangoo-design.common.js",
+  "unpkg": "lib/index.js",
+  "typings": "types/index.d.ts",
+  "style": "lib/theme-chalk/index.css",
+  "scripts": {
+    "build:file": "node build/bin/iconInit.js & node build/bin/build-entry.js",
+    "build:theme": "node build/bin/gen-cssfile && gulp build --gulpfile components/theme-chalk/gulpfile.js && cp-cli components/theme-chalk/lib lib/theme-chalk",
+    "build:utils": "cross-env BABEL_ENV=utils babel src --out-dir lib --ignore src/index.js",
+    "clean": "rimraf lib && rimraf components/*/lib && rimraf test/**/coverage",
+    "dist": "npm run clean && npm run build:file && webpack --config build/webpack.conf.js && webpack --config build/webpack.common.js && webpack --config build/webpack.component.js && npm run build:utils && npm run build:theme",
+    "examples:build": "cd examples/pangoo-design-example && npm run build && cd .. && cd pangoo-design-example-ts && npm run build",
+    "examples:install": "cd examples/pangoo-design-example && yarn install && cd .. && cd pangoo-design-example-ts && yarn install",
+    "link": "yarn link",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unlink": "yarn unlink"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "cp-cli": "^1.0.2",
+    "cross-env": "^3.1.3",
+    "css-loader": "^2.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.0.2",
+    "json-templater": "^1.0.4",
+    "node-sass": "^4.11.0",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uppercamelcase": "^1.1.0",
+    "url-loader": "^1.0.1",
+    "vue": "2.5.21",
+    "vue-loader": "^15.7.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "2.5.21",
+    "vue-template-es2015-compiler": "^1.6.0",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.11",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@126.com> (https://github.com/upcwangying)"
+  ]
+}

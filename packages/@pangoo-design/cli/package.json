@@ -1,0 +1,27 @@
+{
+  "name": "@pangoo-design/cli",
+  "version": "0.0.0",
+  "description": "A `cli` tool for quickly generating a Pangoo Design projects",
+  "keywords": [
+    "pangoo-design",
+    "cli"
+  ],
+  "homepage": "https://pangoo.design",
+  "bugs": "https://github.com/pangoo-design/pangoo-design/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangoo-design/pangoo-design.git",
+    "directory": "packages/@pangoo-design/cli"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@gmail.com> (https://github.com/upcwangying)"
+  ]
+}
