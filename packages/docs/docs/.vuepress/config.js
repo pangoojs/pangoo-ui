@@ -6,12 +6,12 @@ module.exports = ctx => ({
     '/': {
       lang: 'en-US',
       title: 'Pangoo Design',
-      description: 'A Component Library for Vue.js based on Element.',
+      description: 'A Component Library for Vue.js.',
     },
     '/zh/': {
       lang: 'zh-CN',
       title: 'Pangoo Design',
-      description: '一个基于Element的Vue组件库.',
+      description: '一个Vue组件库.',
     },
   },
   head: [
