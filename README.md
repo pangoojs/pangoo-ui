@@ -1,6 +1,6 @@
 # Pangoo Design
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/59387ede-4874-4af0-bd00-7851d6ebc6ba/deploy-status)](https://app.netlify.com/sites/pangoo-design/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05401131-d6e0-40be-bf1d-4dbe2ed7633b/deploy-status)](https://app.netlify.com/sites/pangoo-design/deploys)
 [![Codecov](https://img.shields.io/codecov/c/gh/pangoo-design/pangoo-design)](https://codecov.io/gh/pangoo-design/pangoo-design)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpangoo.design)](https://pangoo.design)
 ![Travis (.org)](https://img.shields.io/travis/pangoo-design/pangoo-design)
