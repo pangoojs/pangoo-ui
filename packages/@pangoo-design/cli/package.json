@@ -1,6 +1,6 @@
 {
   "name": "@pangoo-design/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A `cli` tool for quickly generating a Pangoo Design projects",
   "keywords": [
     "pangoo-design",
