@@ -16,13 +16,11 @@
     "dev:docs": "yarn workspace docs dev",
     "dist": "yarn workspace pangoo-design dist",
     "examples:build": "yarn workspace pangoo-design examples:build",
-    "examples:dist": "yarn examples:install && yarn examples:build && node ./scripts/examples.js",
+    "examples:dist": "yarn examples:install && yarn examples:build && node scripts/examples.js",
     "examples:install": "yarn workspace pangoo-design examples:install",
     "pangoo-design:link": "yarn workspace pangoo-design link",
     "pangoo-design:unlink": "yarn workspace pangoo-design unlink",
-    "precommit": "lint-staged",
     "pub": "lerna publish from-git",
-    "release": "node scripts/release.js",
     "test": "jest"
   },
   "husky": {

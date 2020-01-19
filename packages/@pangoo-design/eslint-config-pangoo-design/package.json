@@ -1,6 +1,6 @@
 {
   "name": "@pangoo-design/eslint-config-pangoo-design",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A shareable configuration plugin of ESLint, used by Pangoo Design.",
   "keywords": [
     "eslint",

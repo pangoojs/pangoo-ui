@@ -22,7 +22,7 @@ const install = function(Vue, opts = {}) {
     Vue.component(component.name, component);
   });
 
-  Vue.prototype.$HD_UI = {
+  Vue.prototype.$PANGOO_DESIGN = {
     size: opts.size || '',
     zIndex: opts.zIndex || 2000
   };
@@ -58,11 +58,7 @@ ComponentNames.forEach(name => {
     }),
   )
 
-  if (
-    ['Loading', 'MessageBox', 'Notification', 'Message', 'InfiniteScroll'].indexOf(
-      componentName,
-    ) === -1
-  ) {
+  if (['Loading', 'MessageBox', 'Notification', 'Message'].indexOf(componentName) === -1) {
     installTemplate.push(
       render(INSTALL_COMPONENT_TEMPLATE, {
         name: componentName,
